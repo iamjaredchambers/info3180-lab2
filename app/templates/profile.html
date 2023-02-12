@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class = "header">
+    <img src="{{ url_for('static', filename='./jaredchambers.jpeg') }}"alt="profile picture" style="width:250px;height:250px;"/>
+</div>
+<div class = "profile-card">
+        <h1>Jared Chambers</h1>
+        <h5>jaredchambers365@gmail.com</h5> 
+        <h5> Joined {{date}}</h5>
+    </div>
+        <p> I am a third year computer science student who has a keen interest in cybersecurity, web development and God. Join me on my journey where I become the best hacker I can be!</p>
+    <div class="followers">
+        <h4>7</h4>
+        <p> Posts</p>
+    </div>
+    <div class="followers">
+        <h4>200</h4>
+        <p> Followers</p>
+    </div>
+    <div class="followers">
+        <h4>2</h4>
+        <p> Following</p>
+    </div>
+    <div class = "padding">
+        <button class ="colour">Follow</button>
+    </div>
+    </div>
+
+</div>
+
+{% endblock %}
+
+
